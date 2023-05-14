@@ -2,8 +2,8 @@ import React from "react";
 
 type Props = {};
 
-const index = (props: Props) => {
-    return <div>index</div>;
+const Predictions = (props: Props) => {
+    return <div>Predictions</div>;
 };
 
-export default index;
+export default Predictions;
