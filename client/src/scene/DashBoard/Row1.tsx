@@ -1,5 +1,9 @@
 import { useGetKpisQuery } from "@/state/api";
 
+import BoxHeader from "@/components/BoxHeader";
+import DashboardBox from "@/components/DashBoardBox";
+import { useTheme } from "@mui/material";
+import { useMemo } from "react";
 import {
     Area,
     AreaChart,
@@ -14,10 +18,6 @@ import {
     XAxis,
     YAxis,
 } from "recharts";
-import DashboardBox from "@/components/DashBoardBox";
-import { useMemo } from "react";
-import { useTheme } from "@mui/material";
-import BoxHeader from "@/components/BoxHeader";
 
 const Row1 = () => {
     const { palette } = useTheme();

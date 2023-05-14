@@ -1,10 +1,10 @@
+import DashBoard from "@/scene/DashBoard";
+import NavBar from "@/scene/NavBar";
+import Predictions from "@/scene/Predictions";
 import { Box, CssBaseline, ThemeProvider, createTheme } from "@mui/material";
-import { themeSettings } from "./theme";
 import { useMemo } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import NavBar from "@/scene/NavBar";
-import DashBoard from "@/scene/DashBoard";
-import Predictions from "@/scene/Predictions";
+import { themeSettings } from "./theme";
 
 function App() {
     const theme = useMemo(() => createTheme(themeSettings), []);
