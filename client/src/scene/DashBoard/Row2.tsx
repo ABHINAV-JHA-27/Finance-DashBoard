@@ -136,6 +136,7 @@ const Row2 = () => {
                             paddingAngle={2}
                             dataKey="value"
                         >
+                            // @ts-ignore
                             {pieData.map((entry, index) => (
                                 <Cell
                                     key={`cell-${index}`}
