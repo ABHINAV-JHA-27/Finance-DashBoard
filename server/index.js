@@ -7,10 +7,6 @@ import mongoose from "mongoose";
 import kpiRoutes from "./src/routes/kpi.js";
 import productRoutes from "./src/routes/product.js";
 import transactionRoutes from "./src/routes/transaction.js";
-import KPI from "./src/models/KPI.js";
-import Product from "./src/models/Product.js";
-import Transaction from "./src/models/Transaction.js";
-import { kpis, products, transactions } from "./src/data/index.js";
 
 config();
 
